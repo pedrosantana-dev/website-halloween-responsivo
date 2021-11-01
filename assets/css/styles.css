@@ -720,11 +720,17 @@ button {
   }
   .newsletter__container{
     display: grid;
-    grid-template-columns: .7fr;
+    grid-template-columns: .9fr;
     justify-content: center;
   }
   .newsletter__description{
     padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .newsletter__input{
+    width: 60%;
   }
 }
 
@@ -803,7 +809,7 @@ button {
   }
 
   .newsletter__container{
-    grid-template-columns: .5fr;
+    grid-template-columns: .8fr;
   }
 
   .footer__container{
@@ -907,6 +913,10 @@ button {
   }
   .new__title{
     font-size: var(--h3-font-size);
+  }
+
+  .newsletter__container{
+    grid-template-columns: .6fr;
   }
 
   .footer__copy{
